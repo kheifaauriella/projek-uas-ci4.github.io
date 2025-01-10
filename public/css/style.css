@@ -1,0 +1,56 @@
+/* user_image */
+.image-profile {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px solid #777777;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  margin-top: 10px; /* Pindahkan gambar ke bawah */
+  margin-left: 15px; /* Pindahkan gambar ke kanan */
+}
+
+.image-edit {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px solid #777777;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.edit-container {
+  display: flex; /* Mengaktifkan Flexbox */
+  justify-content: center; /* Memusatkan gambar secara horizontal */
+  align-items: center; /* Memusatkan gambar secara vertikal */
+  height: 100%; /* Pastikan kontainer memiliki tinggi agar bisa memusatkan vertikal */
+}
+
+.edit-button {
+  /* Memindahkan tombol ke kanan */
+  box-shadow: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.create-button {
+  /* Memindahkan tombol ke kanan */
+  box-shadow: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.image-product {
+  width: 200px;
+  height: 200px;
+  border-radius: 2%;
+  border: 3px solid #777777;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-profile {
+  justify-content: center;
+}
